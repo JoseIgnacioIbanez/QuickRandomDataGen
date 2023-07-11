@@ -24,6 +24,7 @@ namespace QuickRandomDataGen
 		public MainWindow()
 		{
 			InitializeComponent();
+
 			MainPanel.Children.Add(new CIFModule());
 			MainPanel.Children.Add(new DNIModule());
 			MainPanel.Children.Add(new IATAModule());

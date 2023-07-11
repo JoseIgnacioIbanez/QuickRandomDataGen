@@ -13,9 +13,9 @@ namespace QuickRandomDataGen.Module
 
 		internal async override void GenerateText()
 		{
-			int iata = Random.Shared.Next(100000, 999999);
+			int iata = Random.Shared.Next(1, 9_999_999);
 			int check = iata % 7;
-			MainText = $"{iata}{check}";
+			MainText = $"{iata:0000000}{check}";
 		}
 	}
 }

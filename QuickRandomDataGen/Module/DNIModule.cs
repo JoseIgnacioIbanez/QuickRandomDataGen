@@ -17,8 +17,8 @@ namespace QuickRandomDataGen.Module
 
 		internal async override void GenerateText()
 		{
-			int number = new Random().Next(10000000, 99999999);
-			MainText = $"{number}{_DNILetters[number % 23]}";
+			int number = new Random().Next(1, 99999999);
+			MainText = $"{number:00000000}{_DNILetters[number % 23]}";
 		}
 	}
 }
