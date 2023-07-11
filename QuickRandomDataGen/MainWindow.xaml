@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:QuickRandomDataGen"
         mc:Ignorable="d"
-        Title="QuickRandomDataGen" Height="200" Width="900">
+        Title="QuickRandomDataGen" Height="160" Width="900"
+		>
     <WrapPanel Name="MainPanel">
 
     </WrapPanel>
