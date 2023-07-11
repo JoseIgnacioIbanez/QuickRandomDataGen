@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QuickRandomDataGen.Module;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,9 @@ namespace QuickRandomDataGen
 		public MainWindow()
 		{
 			InitializeComponent();
+			MainPanel.Children.Add(new CIFModule());
+			MainPanel.Children.Add(new DNIModule());
+			MainPanel.Children.Add(new IATAModule());
 		}
 	}
 }
